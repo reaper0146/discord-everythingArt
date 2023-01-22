@@ -15,14 +15,8 @@ thumbnail = [f for f in os.listdir(config.thumbnails)]
 @bot.event
 async def on_ready():
     print("%s is online!" % bot.user.name)
-""" 
 
-for f in os.listdir("c:/Users/17062/Documents/New folder/test/"):
-    print(f) """
 
-""" art_ideasTemp = ['ICE CREAM', 'Finis Strawbeary', 'KITTY', 'FRUIT', 'GHOST', 'SEASON', 'ILLUMINATE', 'ORIGAMI', 'WATERFALL', 'CASTLE', 'GAMING', 'NINETIES', 'UNDER THE SEA', 'JOURNEY', 'ZODIAC',
-             'DONUT', 'FAIRYTALE', 'MOUNTAINS', 'COZY', 'JUNGLE', 'SOUR', 'CAMPING', 'DESERT', 'INTERGALACTIC', 'CELEBRATE', 'PRESENT', 'KAWAII', 'VEGGIES', 'TREASURE', 'SUMMER  DAY', 'ZOMBIE', 'FLOWERS']
- """
 data = open(f'{config.art_ideas}', 'r')
 art_ideas = data.read().split('\n')
 #print(data)
